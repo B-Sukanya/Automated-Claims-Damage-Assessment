@@ -2,17 +2,13 @@
 
 ## Overview
 
-ClaimLens is an AI-powered Computer Vision proof of concept designed to
-support insurance claims teams in assessing vehicle damage from incident
-photos.
+AI-powered system that analyzes vehicle damage from incident photos to
+support faster and more consistent insurance claim triage.
 
-The application provides a structured first-pass assessment of submitted
-claim evidence, including detected damage areas, damage severity, estimated
-repair costs, and a recommended review route.
-
-The goal is to help claims handlers review visual evidence more consistently
-and support faster claim triage while keeping the final decision with a
-human reviewer.
+This application uses AI and Computer Vision to analyze vehicle damage
+from uploaded incident photos. It provides a first-pass assessment of
+damaged areas, damage severity, estimated repair cost, and confidence
+to support claims handler review.
 
 ## Application Flow
 
@@ -25,12 +21,12 @@ The application follows a four-step workflow:
 
 ## Key Features
 
-- Claim and policyholder information capture
-- Incident photo upload
-- AI-assisted damage assessment
-- Detection of damaged vehicle components
-- Damage severity classification
-- Repair cost estimation
+- Upload incident photos
+- Detect vehicle damage
+- Assess damage severity
+- Estimate repair cost
+- Provide confidence score
+- Support claims handler review
 
 ## Technologies Used
 
